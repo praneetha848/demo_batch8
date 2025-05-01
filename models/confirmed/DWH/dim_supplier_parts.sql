@@ -10,7 +10,7 @@ ON ps.partkey=p.partkey
 )
 
 SELECT
-s.suppkey AS supplier_key,
+s.SUPPKEY AS supplier_key,
 s.name AS supplier_name,
 s.nationkey AS nation_key,
 s.acctbal AS account_balance,
